@@ -4,7 +4,7 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: instance
+  - name: ubuntu_latest
     image: docker.io/pycontribs/ubuntu:latest
     pre_build_image: true
 provisioner:
