@@ -4,9 +4,12 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: centos8
-    image: docker.io/pycontribs/centos:8
+  - name: instance
+    image: quay.io/centos/centos:stream9 
     pre_build_image: true
+    become: true
+    become_method: sudo
+    prvileged: true
 provisioner:
   name: ansible
 verifier:
