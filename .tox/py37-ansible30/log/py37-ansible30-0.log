@@ -1,0 +1,11 @@
+actionid: py37-ansible30
+msg: getenv
+cmdargs: '/usr/bin/python2.7 -m virtualenv --python /usr/bin/python3.7 py37-ansible30'
+
+Using base prefix '/usr'
+New python executable in /opt/vector-role/.tox/py37-ansible30/bin/python3.7
+Also creating executable in /opt/vector-role/.tox/py37-ansible30/bin/python
+Installing setuptools, pip, wheel...done.
+/usr/local/lib/python2.7/dist-packages/virtualenv.py:1041: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Running virtualenv with interpreter /usr/bin/python3.7
